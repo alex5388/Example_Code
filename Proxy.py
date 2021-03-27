@@ -29,6 +29,6 @@ class Proxy(Manager):
             time.sleep(2)
             print("Sales Manager is busy")
 
-if '__name__'=='__main__':
+if __name__=='__main__':
     p = Proxy()
     p.work()
